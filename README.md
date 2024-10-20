@@ -1,6 +1,17 @@
 
-小白搬运尝试用bolt.new 修改
+小白搬运
+尝试用bolt.new 修改
+luci-app-ddns-go/luasrc/controller/ddns-go.lua
+luci-app-ddns-go/luasrc/view/ddns-go/ddns-go.htm
+luci-app-ddns-go/luasrc/view/ddns-go/ddns-go_log.htm
+luci-app-ddns-go/luasrc/view/ddns-go/ddns-go_status.htm
+luci-app-ddns-go/luasrc/model/cbi/ddns-go/ddns-go.lua
 
+这些修改主要涉及了插件的控制器、视图和模型文件，
+以适应OpenWrt 23.05的LuCI接口。修改的内容包括更新了菜单结构、
+状态检查方法、日志显示和刷新功能，
+以及配置界面的布局和选项。
+这些更改旨在使luci-app-ddns-go插件与OpenWrt 23.05的LuCI框架兼容
 
 
 ================================================
